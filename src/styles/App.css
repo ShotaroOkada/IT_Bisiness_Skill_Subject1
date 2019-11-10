@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-text {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #424242;
+  font-family: Meiryo;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+.App-text50 {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #424242;
+  font-family: Meiryo;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: #FAFAFA;
+  position: fixed;
+  bottom: 10px;
+  width: 60px;
+  height: 30px;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.rechart {
+  width: 65%;
+  margin: 30px auto;
+}
+
+.image {
+  margin-top: 20px;
+  width: 60%;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
